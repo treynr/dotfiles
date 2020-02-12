@@ -10,6 +10,7 @@ dotfile_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 ## Dotfiles to copy
 dotfiles=(
     '.bashrc'
+    '.config'
     '.dir_colors'
     '.gitignore'
     '.oh-my-zsh'

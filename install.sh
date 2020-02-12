@@ -84,3 +84,6 @@ do
     cp -r "${dotfile_dir}/$df" "$prefix"
 done
 
+## Store the git repo in the installation directory with the other dotfiles
+cp -r "${dotfile_dir}/.git" "${prefix}/.dotfiles" 
+

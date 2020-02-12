@@ -87,3 +87,8 @@ done
 ## Store the git repo in the installation directory with the other dotfiles
 cp -r "${dotfile_dir}/.git" "${prefix}/.dotfiles" 
 
+gitopts="--git-dir=${prefix}/.dotfiles --work-tree=$prefix"
+
+## Ignore installation script and readme
+git "$gitopts" update-index --assume-unchanged install.sh readme.rst
+

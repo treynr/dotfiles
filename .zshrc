@@ -20,7 +20,7 @@ alias ls='ls --file-type --color=auto'
 alias lsa='ls --file-type --color=auto -a'
 
 ## Dotfile management
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 ## Activate pyenv if necessary
 if [[ -x "$(command -v pyenv)" ]]; then

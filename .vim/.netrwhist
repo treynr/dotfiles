@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/csi/r/reynolds/grs-annotation/configs'
+let g:netrw_dirhist_2='/home/csi/r/reynolds/data-term-similarity'
+let g:netrw_dirhist_3='/home/csi/r/reynolds/geneweaver-jaccard-py/gwlib'
+let g:netrw_dirhist_4='/home/csi/r/reynolds/timelog'
+let g:netrw_dirhist_5='/home/csi/r/reynolds/vacuum/go2gs/obo_parser'
+let g:netrw_dirhist_6='/home/csi/r/reynolds/vacuum/mp2gene'
+let g:netrw_dirhist_7='/home/csi/r/reynolds/mp2gene'

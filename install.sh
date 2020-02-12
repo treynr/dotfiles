@@ -11,6 +11,7 @@ dotfile_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 dotfiles=(
     '.bashrc'
     '.dir_colors'
+    '.gitignore'
     '.oh-my-zsh'
     '.tmux.conf'
     '.vim'
@@ -90,5 +91,6 @@ cp -r "${dotfile_dir}/.git" "${prefix}/.dotfiles"
 gitopts="--git-dir=${prefix}/.dotfiles --work-tree=$prefix"
 
 ## Ignore installation script and readme
-git "$gitopts" update-index --assume-unchanged install.sh readme.rst
+git $gitopts update-index --assume-unchanged "$prefix/install.sh"
+git $gitopts update-index --assume-unchanged "$prefix/readme.rst"
 
